@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div#robat{
+    display: flex;width: 600px;height: 200px;background-color: rgb(223, 245, 238);justify-content: space-around;margin: 150px auto;border-radius: 20px;
+}
+div#robat>img{width: 300px ;height: 200px;float: right;
+object-fit: contain;}
+div#robat>p{
+    margin-top: 85px;font-size: x-large;
+}
+div#robat>input{
+    width: 20px;height: 20px;margin-top: 90px;
+}
+div#pedar{
+    width: 600px;height: 300px;margin: 150px auto;border-radius: 20px;background-color: rgb(223, 245, 238);position: relative;display: none;
+}
+div#pedar>input{
+    width: 300px;height: 60px;border-radius: 10px;padding-left: 60px;margin: 30px 150px;
+}
+div#random{
+    width: 200px;height:60px ;background-color: white;border-radius: 15px;margin: 0 150px;text-align: center;font-weight: bold;font-size: 30px;padding-top: 15px;
+}
+button#change{
+    width: 100px;height: 60px;border-radius: 15px;position: absolute;top: 40%;color: white;background-color: rgb(84, 231, 11);right: 24%;
+}
+button#sabt{
+    width: 100px;height: 60px;border-radius: 15px;position: absolute;color: white;background-color: rgb(45, 41, 48);bottom: 10%;right: 40%;
+}
